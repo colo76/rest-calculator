@@ -106,7 +106,7 @@ public class CalculatorEndpoint {
     }
 
     private Integer initOneIfEmpty(Integer val){
-        int result = 0;
+        int result = 1;
         if (val!=null){
             result=val;
         }
