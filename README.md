@@ -4,7 +4,7 @@ $ git clone https://github.com/colo76/rest-calculator.git
 
 ###  Run the project ### 
 
-#### If you have installed: ####
+#### If you have java already installed: ####
 
 $ ./run.sh 
 
