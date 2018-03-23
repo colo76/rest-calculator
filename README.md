@@ -24,7 +24,7 @@ $ curl http://localhost:9090/mult/4/2/7
 
 
 ### Building and Running the project ###
-I assume your maven repo is in ~/-m2
+I assume your maven repo is in ~/.m2
 
 1.  Clone the project:
 $ git clone https://github.com/colo76/rest-calculator.git
@@ -41,7 +41,7 @@ or
 $ java -jar calc.jar 
 
 ### Building and Running the project with Docker ###
-I assume your maven repo is in ~/-m2
+I assume your maven repo is in ~/.m2
 
 1. Compile 
 $ mvn clean install
