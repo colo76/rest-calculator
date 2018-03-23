@@ -1,8 +1,8 @@
-###  Clone the project: ###
+### 1. Clone the project: ###
 
 $ git clone https://github.com/colo76/rest-calculator.git
 
-###  Run the project ### 
+### 2. Run the project ### 
 
 #### If you have java already installed: ####
 
@@ -12,7 +12,7 @@ or
 
 $ java -jar calc.jar 
 
-### Now you can start invoking the endpoint ###
+### 3. Now you can start invoking the endpoint ###
 
 $ curl http://localhost:9090/add/1/2/3
 
@@ -25,19 +25,19 @@ $ curl http://localhost:9090/mult/4/2/7
 
 ## Build the project ##
 
-###  Clone the project: ###
+### 1.  Clone the project: ###
 
 $ git clone https://github.com/colo76/rest-calculator.git
 
-###  Install the jar ###
+### 2.  Compile ###
 
 $ mvn clean install
 
-##  Copy the jar to your current location ## 
+## 3 Copy the jar to your current location ## 
 
 $ ./install_jar.sh
 
-### If you have installed: ###
+### 4 If you have installed: ###
 
 $ ./run.sh 
 
@@ -45,8 +45,12 @@ or
 
 $ java -jar calc.jar 
 
-### Running with Docker ###
+## 5 Running with Docker ##
+1. Compile 
 $ mvn clean install
+2. Copy the jar to current location
 $ ./install_jar.sh
+3. Create the Docker image
 $ ./create-image.sh
+4. Run docker
 $ ./run-docker
